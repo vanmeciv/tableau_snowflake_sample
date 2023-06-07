@@ -5,7 +5,7 @@ var viz, sheet, workbook; //We need this to be semi-global so we can reference i
     {
         var containerDiv = document.getElementById("vizContainer"),
             
-            url = "https://us-west-2b.online.tableau.com/t/geospatial/views/CitibikeData/Citibike" //PASTE LINK HERE
+            url = "https://us-west-2b.online.tableau.com/t/geospatial/views/CitibikeData/Map" //PASTE LINK HERE
             options =
             {
               width: "1100px",  
